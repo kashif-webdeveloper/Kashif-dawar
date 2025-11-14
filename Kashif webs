@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Web Development with Kashif</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f8fc;
+            color: #333;
+        }
+
+        header {
+            background: #4a60e8;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #4a60e8;
+        }
+
+        .skills-box {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background: #4a60e8;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #eee;
+            font-size: 14px;
+        }
+
+        button {
+            background: #4a60e8;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #394bcc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Learn Web Development with Kashif</h1>
+        <p>Your journey to becoming a Web Developer starts here!</p>
+    </header>
+
+    <div class="section">
+
+        <!-- About Kashif -->
+        <div class="card">
+            <h2>Who is Kashif?</h2>
+            <p>
+                Hi! I’m Kashif — a beginner turned future full-stack web developer.  
+                I created this website to show my learning path and inspire others to start coding.  
+                Here, you’ll find my roadmap, skills, progress, and everything I’m learning step by step.
+            </p>
+        </div>
+
+        <!-- Skills -->
+        <div class="card">
+            <h2>My Skills</h2>
+            <div class="skills-box">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Frontend Basics</span>
+                <span class="skill">Website Design</span>
+            </div>
+        </div>
+
+        <!-- Roadmap -->
+        <div class="card">
+            <h2>My Web Development Roadmap</h2>
+            <p>Here is the exact plan I'm following to become a web developer:</p>
+            <ul>
+                <li>✔️ Learn HTML (structure of websites)</li>
+                <li>✔️ Learn CSS (styling websites)</li>
+                <li>🔄 Learn JavaScript (making interactive webpages)</li>
+                <li>⬜ Learn Frontend Projects</li>
+                <li>⬜ Learn Backend Basics</li>
+                <li>⬜ Build real-world projects</li>
+                <li>⬜ Become a Full-Stack Web Developer</li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>If you want to learn with me or connect, click the button below:</p>
+            <button onclick="alert('Thanks for visiting Kashif’s website!')">Say Hello 👋</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2025 Kashif — All Rights Reserved
+    </div>
+
+</body>
+</html>
